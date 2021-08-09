@@ -1,0 +1,230 @@
+body{
+ height: 100%;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+
+img{
+  display: block;
+  object-fit:cover;
+}
+
+@font-face {
+    font-family: 'Open Sauce Two';
+    src: url('fonts/OpenSauceTwo-Regular.eot');
+    src: url('fonts/OpenSauceTwo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/OpenSauceTwo-Regular.woff2') format('woff2'),
+        url('fonts/OpenSauceTwo-Regular.woff') format('woff'),
+        url('fonts/OpenSauceTwo-Regular.ttf') format('truetype'),
+        url('fonts/OpenSauceTwo-Regular.svg#OpenSauceTwo-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headerdiv{
+  height: 98px;
+  width: 100%;
+  background: #FFFFFF;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.header{
+  width: 96%;
+  height: 49.24px;
+  margin-top: 24px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.header table{
+  height: 100%;
+  width: 100%;
+
+}
+ .header td{
+   text-align: right;
+   width: 9%;
+ }
+ .header th{
+   text-align: left;
+ }
+ .header a{
+   font-family: 'Open Sauce Two';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 32px;
+   letter-spacing: -0.5px;
+   color: #222121;
+   text-decoration: none;
+ }
+ .header a:hover{
+   color: #027A26;
+ }
+ .header .active{
+   color: #027A26;
+   font-weight: bold;
+ }
+
+/*header ends*/
+
+ .display{
+   width: 100%;
+   height: 400px;
+   position: relative;
+ }
+
+.display button{
+  position: absolute;
+  font-family: Noto Serif KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -0.6px;
+  color: #222121;
+  background: #FFFFFF;
+  height: 67px;
+  width: 266px;
+  outline: none;
+  border: none;
+  display: block;
+  cursor: default;
+  top: 50%;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.details{
+  height: auto;
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details table{
+  width: 80%;
+  font-family: Open Sauce Two;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  align-items: center;
+  letter-spacing: -0.45px;
+  color: #131415;
+}
+
+.details th{
+  font-family: Open Sauce Two;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  letter-spacing: -0.45px;
+  color: #027A26;
+  width: 50%;
+  float: left;
+  text-align: left;
+  vertical-align: top;
+}
+
+.map{
+  height: 551px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #F5F6F7;
+}
+
+/*footer starts*/
+
+.footer{
+  height: auto;
+  width: 100%;
+  background: #F5F6F5;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer table{
+  width: 80%;
+}
+
+.footer th{
+  float: left;
+  font-family: Baumans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #222121;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222121;
+  cursor: default;
+}
+
+.footer td{
+  width: 20%;
+}
+
+.footer t{
+  font-family: Open Sauce Two;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: #222121;
+  text-decoration: none;
+  cursor: default;
+}
+
+.footer a1{
+  font-family: Baumans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1.33333px;
+  text-transform: uppercase;
+  color: #222121;
+  vertical-align: top;
+  cursor: default;
+}
+
+.footer a{
+  font-family: Open Sauce Two;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: -0.45px;
+  color: #222121;
+  text-decoration: none;
+}
+
+.footer p{
+  font-family: Open Sauce Two;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.45px;
+  color: #222121;
+  margin-top: 70px;
+}
+/*footer ends*/
