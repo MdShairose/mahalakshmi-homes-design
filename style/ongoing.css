@@ -66,10 +66,10 @@ img{
  .header a:hover{
    color: #027A26;
  }
- .header .active{
-   color: #027A26;
-   font-weight: bold;
- }
+.header .active{
+  color: #027A26;
+  font-weight: bold;
+}
 
 /*header ends*/
 

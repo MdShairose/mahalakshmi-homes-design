@@ -113,7 +113,7 @@ img{
 }
 
 .details table{
-  width: 80%;
+  width: 40%;
   font-family: Open Sauce Two;
   font-style: normal;
   font-weight: normal;
@@ -122,6 +122,56 @@ img{
   align-items: center;
   letter-spacing: -0.45px;
   color: #131415;
+}
+
+.details input{
+  font-family: Open Sauce Two;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.45px;
+  color: #131415;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  outline: none;
+  width: 98%;
+}
+.details textarea{
+  font-family: Open Sauce Two;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.45px;
+  color: #131415;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  outline: none;
+  width: 98%;
+}
+
+.details .send{
+  font-family: Open Sauce Two;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.45px;
+  color: #FFFFFF;
+  background: #027A26;
+  height: 48px;
+  width: 100%;
+  outline: none;
+  border: none;
+  display: block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .details th{
