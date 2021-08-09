@@ -1,7 +1,7 @@
 var slideIndex = 0,present,myVar;
 let matters = ["<p>Located in the most desired area of <br>Manikonda, Mahalakshmi’s Avasa has <br>3-Bedroom and 2-Bedroom flats ranging <br>from 1100 sft to 1700 sft. The apartment is <br>nearby Gachibowli IT corridor and Financial <br>District 1.</p>" ,
-               "<p>Located in the most desired area of <br>Manikonda, Mahalakshmi’s Avasa has <br>3-Bedroom and 2-Bedroom flats ranging <br>from 1100 sft to 1700 sft. The apartment is <br>nearby Gachibowli IT corridor and Financial <br>District 2.</p>",
-               "<p>Located in the most desired area of <br>Manikonda, Mahalakshmi’s Avasa has <br>3-Bedroom and 2-Bedroom flats ranging <br>from 1100 sft to 1700 sft. The apartment is <br>nearby Gachibowli IT corridor and Financial <br>District 3.</p>"];
+               "<p>Located in Bachupally, Mahalakshmi’s <br>Astoria offers 3-Bedroom and 2- Bedroom <br>flats ranging from 1125 sft to 1350 sft. <br>The apartment’s proximity to engineering <br>colleges and international schools makes it a <br>very desirable location and an easy <br>commute to Hi-Tech city.</p>",
+               "<p>Spread across 8 Acres, located on <br>Karakambadi Road, Tirupati has 50 luxurious <br>villas that are East, West and North <br>Facing ranging from 2200sft to 3600sft. <br>Conveniently located within 10 mins from Bus <br>stand and has all the amenities including <br>a club house, swimming pool and <br>children’s play area.</p>"];
 let images = ["./images/sideshow1.png","./images/two.png","./images/three.png"];
 showSlides();
 
