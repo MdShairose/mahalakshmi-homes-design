@@ -602,3 +602,39 @@ h2{
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+.first_image
+{
+  height:658px;
+  z-index: 3;
+  position: absolute;
+  opacity: 1.0;
+  transition-duration: 4s;
+}
+
+.second_image
+{
+  height:561px;
+  z-index: 2;
+  position: absolute;
+  margin-left:8%;
+  margin-top:49px;
+  opacity: 0.8;
+  transition-duration: 4s;
+}
+
+.third_image
+{
+  height:467px;
+  z-index: 1;
+  position: absolute;
+  margin-left:16%;
+  margin-top:96px;
+  opacity: 0.7;
+  transition-duration: 4s;
+}
+
+.move
+{
+  opacity: 0.5;
+}
