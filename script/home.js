@@ -41,5 +41,5 @@ function showSlides()
 
   document.getElementById("value").innerHTML = ((slideIndex-1)+1)+"/3";
 
-  myVar = setTimeout(showSlides, 5000);
+  myVar = setTimeout(showSlides, 1000);
 }
